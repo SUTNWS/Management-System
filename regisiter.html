@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      table{
+        margin:auto;
+        margin-top:250px;
+      }
+      table input{
+        width:280px;
+        height:20px;
+        font-size:18px;
+      }
+      table button{
+        width:330px;
+        height:30px;
+        border:none;
+        background:#BBFFFF;
+        border-radius:10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="./regisiterback.php" method="post" style="text-align:center;">
+      <table>
+        <tr>
+          <td colspan="2" style="text-align:center;"><h1>欢迎来到XXX图书系统</h1></td>
+        </tr>
+        <tr>
+          <td>用户名</td>
+          <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+          <td>密码</td>
+          <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+          <td>重复密码</td>
+          <td><input type="password" name="repassword"></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center;"><button type="submit">注册</button></td>
+        </tr>
+        <tr>
+          <td><a href="./login.html">立即登录</a></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
